@@ -20,3 +20,4 @@ $headers = "From: darshanvjmass@gmail.com" ."\r\n" .
 if($email!=NULL){
 	  mail($to,$subject,$txt,$headers);
 }
+?>
