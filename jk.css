@@ -1,0 +1,24 @@
+h1{ background:black;
+ color:red;font-size:66px;
+ font-family:;
+}
+img { width:15%;float:left; }
+html {background:black; }
+div { color:blue;font-size:45px;}
+h2 { padding-left:31%;font-family: "poppins",sans-serif; font-size:85px;position:relative;
+color:black;-webkit-text-stroke:0vw red;text-transform:uppercase;}
+h2::before
+{ content: attr(data-text); position:absolute;color:red; -webkit-text-stroke:0vw red;
+border-left: 2px solid red;
+overflow: hidden; animation:animate 6s linear infinite;
+
+}
+@keyframes animate
+{
+ 0%,10%,100%
+ { width:0;
+ }
+ 70%,90%
+ { width:100%;
+ }
+}
